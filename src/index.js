@@ -14,3 +14,8 @@ root.render(
     </Provider>
 );
 
+// Testing in Cypress
+if (window.Cypress) {
+  window.store = store;
+}
+
